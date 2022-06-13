@@ -35,7 +35,7 @@
           depthStencilState: &d1
             depthTest: true
             depthWrite: false
-          blendState:
+          blendState: #关掉深度写入，开启透明混合
             targets:
             - blend: true
               blendSrc: src_alpha
